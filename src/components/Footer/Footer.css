@@ -1,0 +1,8 @@
+.footer-custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+    height: 80px;
+    color: White; 
+}

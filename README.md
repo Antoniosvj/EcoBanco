@@ -1,60 +1,70 @@
-# EcoBanco
+# Getting Started with Create React App
 
-A ideia de um banco moderno e sustentável. Transmitindo a ideia de uma instituição financeira que está alinhada com práticas ecológicas e preocupada com a sustentabilidade.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Idéia Inicial
+## Available Scripts
 
-A idéia inicial é começar um projeto para ser divulgado juntamente com meu portifólio.
-Este projeto terá como base o site do PicPay, mas não será uma reprodução simples do site de forma visual, a ideia é utilizar o site apenas como base.
-Ao final deste projeto a pretenção é ter um site responsivo e interativo com varias funcionalidades como um site de banco, porém pra ser usado apenas para fins didáticos.
+In the project directory, you can run:
 
-##Tecnologias Utilizadas no projeto
+### `npm start`
 
-HTML5
-CSS3
-JAVASCRIPT - REACT
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-##O que pretendo apresentar ao longo do site
+### `npm test`
 
-###Página Inicial:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Uma página inicial atraente com informações sobre o propósito do site.
-Seção de destaque mostrando as principais funcionalidades.
+### `npm run build`
 
-###Cadastro/Login:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Sistema de cadastro e login para os usuários acessarem suas contas.
-Utilizando formulários interativos e validação de entrada para garantir uma boa experiência do usuário.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-###Dashboard:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Painel principal onde os usuários podem visualizar seu saldo, transações recentes e outras informações importantes.
+### `npm run eject`
 
-###Transações:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Página de transações onde os usuários podem realizar pagamentos, transferências e ver o histórico de transações.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-###Perfil do Usuário:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Página de perfil onde os usuários podem editar suas informações, adicionar métodos de pagamento, e ajustar configurações de conta.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-###Design Responsivo:
+## Learn More
 
-Site totalmente responsivo, funcionando bem em dispositivos móveis e desktops.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-###Integração com API:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Integração simulada com uma API para simular transações reais e atualização de saldo.
+### Code Splitting
 
-###Estilização e Componentes Reutilizáveis:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Utilização estilos consistentes e componentes reutilizáveis para manter o código organizado e facilitar futuras expansões.
+### Analyzing the Bundle Size
 
-###Testes:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Implementação de testes para garantir a robustez do seu código.
+### Making a Progressive Web App
 
-###Documentação:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Código documentado com informações claras sobre como executar e testar o projeto.
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
