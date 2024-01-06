@@ -1,0 +1,41 @@
+/*seção principaç*/
+.container-principal{
+    padding: 50px;
+    background-color: #C9CCBF;
+    text-align: justify;
+    color: #125f3b;
+    align-items: center;
+}
+.container-principal button{
+    margin-top: 20px;
+}
+.container-principal img{
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+/*seção cartão*/
+.conteiner-cartao{
+    background-color: #238662;
+    color:white;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteiner-cartao img{
+    height: 300px;
+    margin-left: 20%;
+}
+.conteiner-cartao h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+.conteiner-cartao p{
+    font-size: 150%;
+}
+.conteiner-cartao button{
+    font-weight: bold;
+}
+.cotainer-beneficios{
+    padding: 50px;
+}
