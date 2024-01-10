@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage/HomePage';
+import CadastroPage from './pages/CadastroPage/CadastroPage';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/cadastro" element={<CadastroPage />} />
         {/* Adicione mais rotas conforme necessário */}
       </Routes>
       <Footer />
