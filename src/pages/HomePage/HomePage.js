@@ -1,5 +1,7 @@
 import React from "react";
 import './HomePage.css';
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function HomePage () {
     return(
@@ -9,7 +11,7 @@ function HomePage () {
                     <h1>
                     Transforme sua experiência financeira com EcoBanco: aqui, sua economia ganha vida, e seu futuro prospera. Antecipe seus sonhos em minutos e dê um salto em direção ao sucesso financeiro. 
                     </h1>
-                    <button className="btn btn-success btn-lg">Abra sua conta</button>
+                    <Button as={Link} to="/cadastro" className="btn btn-success btn-lg">Abra sua conta</Button>
                 </div>
                 <div className="d-none d-lg-block">
                     <img src="/image/1.jpg"></img>
@@ -26,11 +28,11 @@ function HomePage () {
                     <button className="btn btn-light btn-lg">Peça já o seu!</button>
                 </div>
             </div>
-            <div className="d-flex">
+            <div className="d-flex px-4">
                 <div className="col-6 conteiner-beneficios">
                     <h1>Conta com o melhor rendimento do Brasil</h1>
                     <p>Com o EcoBanco você facilita a sua vida. Venha conferir!</p>
-                    <button className="btn btn-dark btn-lg">Abrir conta EcoBanco</button>
+                    <Button as={Link} to="/cadastro" className="btn btn-dark btn-lg">Abrir conta EcoBanco</Button>
                 </div>
                 <div>
                 <div>

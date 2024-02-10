@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Button, NavLink } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
@@ -61,11 +61,12 @@ const Header = () => {
             <Nav.Link href="/blog">Blog</Nav.Link>
         </Nav>
         <Nav>
-            <Nav.Link className="btn-custom">Area do Cliente</Nav.Link>
-            <Button as={Link} to="/cadastro" className="btn btn-success" >Cadastre-se</Button>
+            <Nav.Link as={Link} to="/login" className="btn-custom">Area do Cliente</Nav.Link>
+            <Button as={Link} to="/cadastro" className="btn btn-success" >Abra sua conta</Button>
         </Nav>
     </Navbar.Collapse>
     </Navbar>
+    
   );
 };
 

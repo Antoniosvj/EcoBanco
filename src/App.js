@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage/HomePage';
 import CadastroPage from './pages/CadastroPage/CadastroPage';
+import LoginPage from './pages/LoginPage/LoginPage';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cadastro" element={<CadastroPage />} />
+        <Route path="/login" element={<LoginPage />} />
         {/* Adicione mais rotas conforme necessário */}
       </Routes>
       <Footer />
